@@ -34,3 +34,10 @@
 ::-webkit-scrollbar-button {
     display: none;
 }
+
+/* Custom CSS below this line ------------------------ */
+
+/* Hide profile ban status */
+.profile_ban_status {
+    display: none;
+}
