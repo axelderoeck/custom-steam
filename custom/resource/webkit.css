@@ -52,6 +52,11 @@
     display: none !important;
 }
 
+/* PROFILE: Hide the title of every showcase */
+.profile_customization_header {
+    display: none !important;
+}
+
 /* LIBRARY: Hide the What's New section */
 .libraryhome_UpdatesContainer_17uEB {
     display: none !important;
