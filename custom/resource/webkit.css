@@ -113,6 +113,11 @@ span.how_to_get_card_drops_ctn {
     display: none !important;
 }
 
+/* BADGES: Hide play button */
+.badge_title_playgame {
+    display: none !important;
+}
+
 /* INVENTORY: Hide specific games from tab menu (appid). */
 #inventory_link_238460, #inventory_link_437220, #inventory_link_381210, #inventory_link_578080, #inventory_link_218620, 
 #inventory_link_207140, #inventory_link_570 {
