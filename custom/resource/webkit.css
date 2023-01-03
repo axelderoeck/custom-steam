@@ -37,17 +37,17 @@
 
 /* Custom CSS below this line ------------------------ */
 
-/* Hide profile ban status */
+/* PROFILE: Hide every profile's ban status */
 .profile_ban_status {
-    display: none;
+    display: none !important;
 }
 
-/* Hide profile button 'add showcase' */
+/* PROFILE: Hide the button 'Add Showcase' */
 .profile_customization.none_selected {
-    display: none;
+    display: none !important;
 }
 
-/* Hide whats new section in library */
+/* LIBRARY: Hide the What's New section */
 .libraryhome_UpdatesContainer_17uEB {
     display: none !important;
 }
