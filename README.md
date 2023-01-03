@@ -1,3 +1,5 @@
+<img src="https://www.jaxon.gg/wp-content/uploads/2022/08/Steam-Featured.jpg" alt="Header image" width="100%">
+
 # Custom Steam skin
 
 This skin hides certain aspects of the Steam client that I dislike.
