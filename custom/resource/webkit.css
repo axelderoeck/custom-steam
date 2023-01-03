@@ -120,3 +120,18 @@
 .slot_app_fraudwarning {
     display: none !important;
 }
+
+
+
+
+
+
+
+/* Styling preferences ------------------------ */
+
+/* INVENTORY: Game tab remove shadow on select */
+.games_list_tab.active {
+    -webkit-box-shadow: 0 0 black !important;
+    -moz-box-shadow: 0 0 black !important;
+    box-shadow: 0 0 black !important;
+}
