@@ -57,6 +57,11 @@
     display: none !important;
 }
 
+/* PROFILE: Hide item count on showcase */
+.item_count_stat {
+    display: none !important;
+}
+
 /* LIBRARY: Hide the What's New sectio. */
 .libraryhome_UpdatesContainer_17uEB {
     display: none !important;
