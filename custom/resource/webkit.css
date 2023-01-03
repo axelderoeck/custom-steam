@@ -76,3 +76,14 @@
 .appportrait_AppPortraitBannerContainer_2jj5T {
     display: none !important;
 }
+
+/* FRIENDS: Hide the asterisk next to a nicknamed friend */
+.personanameandstatus_playerNicknameBracket_3XEmW,
+.player_nickname_hint {
+    display: none !important;
+}
+
+/* FRIENDS: Hide the status color avatar overlay (No more blue bar on the right of every user image.) */
+.avatarStatus {
+    display: none !important;
+}
