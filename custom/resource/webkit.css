@@ -41,3 +41,8 @@
 .profile_ban_status {
     display: none;
 }
+
+/* Hide profile button 'add showcase' */
+.profile_customization.none_selected {
+    display: none;
+}
