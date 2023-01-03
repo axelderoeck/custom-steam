@@ -62,6 +62,11 @@
     display: none !important;
 }
 
+/* PROFILE: Hide disgusting art showcases from weebs and fucking nerds */
+.profile_customization.myart {
+    display: none !important;
+}
+
 /* LIBRARY: Hide the What's New sectio. */
 .libraryhome_UpdatesContainer_17uEB {
     display: none !important;
