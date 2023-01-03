@@ -67,6 +67,11 @@
     display: none !important;
 }
 
+/* PROFILE: Remove item showcase border */
+.item_showcase_item {
+    border: 0 !important;
+}
+
 /* LIBRARY: Hide the What's New sectio. */
 .libraryhome_UpdatesContainer_17uEB {
     display: none !important;
