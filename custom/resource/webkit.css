@@ -47,6 +47,11 @@
     display: none !important;
 }
 
+/* PROFILE: Hide all recent games except the most recent game */
+.recent_game:not(:first-child) {
+    display: none !important;
+}
+
 /* LIBRARY: Hide the What's New section */
 .libraryhome_UpdatesContainer_17uEB {
     display: none !important;
@@ -59,5 +64,10 @@
 
 /* LIBRARY: Hide the workshop section on the game page */
 .appdetailsworkshopsection_WorkshopSection_2PfKa {
+    display: none !important;
+}
+
+/* LIBRARY: Hide the 'New in Library' banner on newly added games */
+.appportrait_AppPortraitBannerContainer_2jj5T {
     display: none !important;
 }
