@@ -37,53 +37,53 @@
 
 /* Custom CSS below this line ------------------------ */
 
-/* PROFILE: Hide every profile's ban status */
+/* PROFILE: Hide every profile's ban status. */
 .profile_ban_status {
     display: none !important;
 }
 
-/* PROFILE: Hide the button 'Add Showcase' */
+/* PROFILE: Hide the button 'Add Showcase'. */
 .profile_customization.none_selected {
     display: none !important;
 }
 
-/* PROFILE: Hide all recent games except the most recent game */
+/* PROFILE: Hide all recent games except the most recent game. */
 .recent_game:not(:first-child) {
     display: none !important;
 }
 
-/* PROFILE: Hide the title of every showcase */
+/* PROFILE: Hide the title of every showcase. */
 .profile_customization_header {
     display: none !important;
 }
 
-/* LIBRARY: Hide the What's New section */
+/* LIBRARY: Hide the What's New sectio. */
 .libraryhome_UpdatesContainer_17uEB {
     display: none !important;
 }
 
-/* LIBRARY: Hide the info section alert of a non-steam game */
+/* LIBRARY: Hide the info section alert of a non-steam game. */
 .appdetailssectionnonsteam_Body_1TGl5 {
     display: none !important;
 }
 
-/* LIBRARY: Hide the workshop section on the game page */
+/* LIBRARY: Hide the workshop section on the game page. */
 .appdetailsworkshopsection_WorkshopSection_2PfKa {
     display: none !important;
 }
 
-/* LIBRARY: Hide the 'New in Library' banner on newly added games */
+/* LIBRARY: Hide the 'New in Library' banner on newly added games. */
 .appportrait_AppPortraitBannerContainer_2jj5T {
     display: none !important;
 }
 
-/* FRIENDS: Hide the asterisk next to a nicknamed friend */
+/* FRIENDS: Hide the asterisk next to a nicknamed friend. */
 .personanameandstatus_playerNicknameBracket_3XEmW,
 .player_nickname_hint {
     display: none !important;
 }
 
-/* FRIENDS: Hide the status color avatar overlay (No more blue bar on the right of every user image.) */
+/* FRIENDS: Hide the status color avatar overlay (No more blue bar on the right of every user image.). */
 .avatarStatus {
     display: none !important;
 }
