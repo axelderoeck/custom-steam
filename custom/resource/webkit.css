@@ -103,7 +103,12 @@
     display: none !important;
 }
 
-/* INVENTORY: Hide specific games from tab menu (appid) */
+/* BADGES: Remove 'How to get card drops' link. */
+span.how_to_get_card_drops_ctn {
+    display: none;
+}
+
+/* INVENTORY: Hide specific games from tab menu (appid). */
 #inventory_link_238460, #inventory_link_437220, #inventory_link_381210, #inventory_link_578080, #inventory_link_218620, 
 #inventory_link_207140, #inventory_link_570 {
     display: none !important;
@@ -116,7 +121,7 @@
     float: none !important;
 }
 
-/* INVENTORY: Hide warning icon on items (i.e. a nametagged item) */
+/* INVENTORY: Hide warning icon on items (i.e. a nametagged item). */
 .slot_app_fraudwarning {
     display: none !important;
 }
@@ -129,7 +134,7 @@
 
 /* Styling preferences ------------------------ */
 
-/* INVENTORY: Game tab remove shadow on select */
+/* INVENTORY: Game tab remove shadow on select. */
 .games_list_tab.active {
     -webkit-box-shadow: 0 0 black !important;
     -moz-box-shadow: 0 0 black !important;
