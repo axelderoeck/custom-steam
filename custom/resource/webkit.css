@@ -104,17 +104,16 @@
 }
 
 /* INVENTORY: Hide specific games from tab menu (appid) */
-#inventory_link_238460,
-#inventory_link_437220,
-#inventory_link_381210,
-#inventory_link_578080,
-#inventory_link_218620,
-#inventory_link_207140,
-#inventory_link_570 {
+#inventory_link_238460, #inventory_link_437220, #inventory_link_381210, #inventory_link_578080, #inventory_link_218620, 
+#inventory_link_207140, #inventory_link_570 {
     display: none !important;
 }
 .games_list_tab_separator {
     display: none !important;
+}
+.games_list_tab, a.games_list_tab {
+    display: inline-block !important;
+    float: none !important;
 }
 
 /* INVENTORY: Hide warning icon on items (i.e. a nametagged item) */
