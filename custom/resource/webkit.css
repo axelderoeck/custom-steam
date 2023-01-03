@@ -46,3 +46,9 @@
 .profile_customization.none_selected {
     display: none;
 }
+
+/* Hide whats new section in library */
+.libraryhome_UpdatesContainer_17uEB {
+    display: none !important;
+}
+
