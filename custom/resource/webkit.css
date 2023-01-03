@@ -56,3 +56,8 @@
 .appdetailssectionnonsteam_Body_1TGl5 {
     display: none !important;
 }
+
+/* LIBRARY: Hide the workshop section on the game page */
+.appdetailsworkshopsection_WorkshopSection_2PfKa {
+    display: none !important;
+}
