@@ -1,15 +1,14 @@
 <img src="https://www.jaxon.gg/wp-content/uploads/2022/08/Steam-Featured.jpg" alt="Header image" width="100%">
 
 # Custom Steam skin
-
 This skin hides certain aspects of the Steam client that I dislike.
 Here are a few things that are removed:
 
 1. Hides the 'Whats New' section in the library.
 2. Hides the 'Add Showcase' button on your profile.
-3. Hides all the recent games on your profile except the 1 most recent (default) or the entire recent games section (change in webkit.css).
+3. Hides all the recent games on every profile (default) or shows you just the 1 most recent game instead of 3 (change in webkit.css).
 4. Hides art showcases everywhere to avoid those 'transparent' steam profiles.
-5. A few more minor things.
+5. A few more things.
 
 ## Editing the skin
 I tried to make the skin as editable as possible, to edit this go to the ```webkit.css``` file located in the ```resource``` folder.

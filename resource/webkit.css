@@ -16,7 +16,7 @@
 .profile_customization.none_selected{display: none !important;}
 
 /* PROFILE: Hide all recent games activity */
-/* .recent_games,.profile_recentgame_header,.recentgame_quicklinks{display: none !important;}.profile_comment_area{margin-top: 0 !important;} */
+.recent_games,.profile_recentgame_header,.recentgame_quicklinks{display: none !important;}.profile_comment_area{margin-top: 0 !important;}
 
 /* PROFILE: Hide all recent games activity except the most recent game. (Doesnt have an effect if the above rule is applied) */
 .recent_game:not(:first-child){display: none !important;}
