@@ -3,20 +3,29 @@
 # Custom Steam skin
 
 This skin hides certain aspects of the Steam client that I dislike.
+Here are a few things that are removed:
 
-## Notes
-Remove lines in webkit.css that you don't need.
+1. Hides the 'Whats New' section in the library.
+2. Hides the 'Add Showcase' button on your profile.
+3. Hides all the recent games on your profile except the 1 most recent (default) or the entire recent games section (change in webkit.css).
+4. Hides art showcases everywhere to avoid those 'transparent' steam profiles.
+5. A few more minor things.
+
+## Editing the skin
+I tried to make the skin as editable as possible, to edit this go to the ```webkit.css``` file located in the ```resource``` folder.
+In this file you can remove the lines (or comment them out) that you don't need.
 
 ## Installation
 1. Download the latest release from the GitHub page on the right.
-2. Drag and drop the folder ```custom-steam``` inside ```C:\Program Files (x86)\Steam\skins```.
+2. Unzip ```custom-steam.zip```.
+3. Drag and drop the folder ```custom-steam``` inside ```C:\Program Files (x86)\Steam\skins```.
 
 > You can create the folder 'skins' if this doesn't exist.
 
-3. Start/restart Steam.
-4. Steam settings -> Interface -> Select the skin you wish Steam to use (requires Steam to restart). 
-5. Select ```custom-steam```.
-6. Restart Steam.
+4. Start/restart Steam.
+5. Steam settings -> Interface -> Select the skin you wish Steam to use (requires Steam to restart). 
+6. Select ```custom-steam```.
+7. Restart Steam.
 
 ## (Developer notes) Creating a release
 
