@@ -36,9 +36,6 @@
 /* LIBRARY: Hide the info section alert of a non-steam game. */
 .appdetailssectionnonsteam_Body_1TGl5{display: none !important;}
 
-/* LIBRARY: Hide the workshop section on the game page. */
-.appdetailsworkshopsection_WorkshopSection_2PfKa{display: none !important;}
-
 /* LIBRARY: Hide the 'New in Library' banner on newly added games. */
 .appportrait_AppPortraitBannerContainer_2jj5T{display: none !important;}
 
@@ -48,17 +45,8 @@
 /* BADGES: Remove 'How to get card drops' link. */
 span.how_to_get_card_drops_ctn{display: none;}
 
-/* BADGES: Hide border around empty badge. */
-/* .badge_empty{border: 1px solid transparent !important;} */
-
-/* BADGES: Remove header line on badge row. */
-/* .badge_title_rule{display: none !important;} */
-
 /* BADGES: Hide play button on every row. */
 .badge_title_playgame{display: none !important;}
-
-/* BADGES: Hide oegly boogly ass card border. */
-/* .badge_progress_card.unowned {border: dashed 1px transparent !important;background-color: transparent !important;} */
 
 /* BADGES: Hide level 0 badges when you have no cards from that collection. CURRENTLY NOT WORKING (it does work in browser) */
 /* .badge_row:not(:has(.badge_progress_card.owned)) {
