@@ -25,11 +25,3 @@ In this file you can remove the lines (or comment them out) that you don't need.
 5. Steam settings -> Interface -> Select the skin you wish Steam to use (requires Steam to restart). 
 6. Select ```custom-steam```.
 7. Restart Steam.
-
-## (Developer notes) Creating a release
-
-> It's important to keep this structure so that the installation instructions will always work.
-
-1. Zip the ```resource``` folder.
-2. Rename the zip file to 'custom-steam.zip'.
-3. Upload zip as a new release.
