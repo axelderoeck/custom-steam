@@ -24,7 +24,7 @@
 /* PROFILE: Hide the title of every showcase. */
 /* .profile_customization_header{display: none !important;} */
 
-/* PROFILE: Hide item count on showcase */
+/* PROFILE: Hide item count on item showcase */
 /* .item_count_stat{display: none !important;} */
 
 /* PROFILE: Hide disgusting art showcases from weebs and fucking nerds */
@@ -40,7 +40,7 @@
 .appportrait_AppPortraitBannerContainer_2jj5T{display: none !important;}
 
 /* FRIENDS: Hide the asterisk next to a nicknamed friend. CURRENTLY NOT WORKING */
-/* .personanameandstatus_playerNicknameBracket_3XEmW,.player_nickname_hint{display: none !important;} */
+.personanameandstatus_playerNicknameBracket_3XEmW,.player_nickname_hint{display: none !important;}
 
 /* BADGES: Remove 'How to get card drops' link. */
 span.how_to_get_card_drops_ctn{display: none;}
@@ -49,15 +49,7 @@ span.how_to_get_card_drops_ctn{display: none;}
 .badge_title_playgame{display: none !important;}
 
 /* BADGES: Hide level 0 badges when you have no cards from that collection. CURRENTLY NOT WORKING (it does work in browser) */
-/* .badge_row:not(:has(.badge_progress_card.owned)) {
-    display: none !important;
-} */
-/* .badge_row:not(.badge_progress_card.owned) {
-    display: none !important;
-} */
-/* .badge_row:has(.badge_info) {
-    display: block !important;
-} */
+.badge_row:not(:has(.badge_progress_card.owned)){display: none !important;}.badge_row:has(.badge_info){display: block !important;}
 
 /* INVENTORY: Hide warning icon on items thumbnail (i.e. a nametagged item). */
 .slot_app_fraudwarning {display: none !important;}
