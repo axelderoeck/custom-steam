@@ -1,152 +1,86 @@
-::-webkit-scrollbar {
-    height: 12px;
-    width: 12px;
-    background: transparent;
-    z-index: 12;
-    overflow: visible;
-}
-
-::-webkit-scrollbar-thumb {
-    width: 4px;
-    min-height: 32px;
-    border: 3px solid transparent;
-    border-radius: 10px;
-    z-index: 12;
-    background-image: none;
-    background-color: rgba( 67, 73, 83, 1 );
-    background-clip: padding-box;
-    transition: background-color .32s ease-in-out;
-    // margin: 4px;
-    // min-width: 32px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(96, 103, 116);
-    background-clip: padding-box;
-}
-
-::-webkit-scrollbar-corner {
-    background: #202020;
-    background-color: rgb(67, 73, 83);
-}
-
-::-webkit-scrollbar-track,
-::-webkit-scrollbar-button {
-    display: none;
-}
+/* Minified default Steam css DO NOT DELETE */
+::-webkit-scrollbar{height:12px;width:12px;background:0 0;z-index:12;overflow:visible}::-webkit-scrollbar-thumb{width:4px;min-height:32px;border:3px solid transparent;border-radius:10px;z-index:12;background-image:none;background-color:#434953;background-clip:padding-box;transition:background-color .32s ease-in-out}::-webkit-scrollbar-thumb:hover{background-color:#606774;background-clip:padding-box}::-webkit-scrollbar-corner{background:#434953}::-webkit-scrollbar-button,::-webkit-scrollbar-track{display:none}
 
 /* Custom CSS below this line ------------------------ */
 
+/* ------ Welcome ------
+    In this file you can change your preferences for the skin.
+    Every line has an explanation what it does with the code below as minified as possible.
+    This way you can comment or delete the sections you don't want.
+*/
+
 /* PROFILE: Hide every profile's ban status. */
-.profile_ban_status {
-    display: none !important;
-}
+.profile_ban_status{display: none !important;}
 
 /* PROFILE: Hide the button 'Add Showcase'. */
-.profile_customization.none_selected {
-    display: none !important;
-}
+.profile_customization.none_selected{display: none !important;}
 
-/* PROFILE: Hide all recent games except the most recent game. */
-.recent_game:not(:first-child) {
-    display: none !important;
-}
+/* PROFILE: Hide all recent games activity */
+.recent_games,.profile_recentgame_header,.recentgame_quicklinks{display: none !important;}.profile_comment_area{margin-top: 0 !important;}
+
+/* PROFILE: Hide all recent games activity except the most recent game. (Doesnt have an effect if the above rule is applied) */
+.recent_game:not(:first-child){display: none !important;}
 
 /* PROFILE: Hide the title of every showcase. */
-.profile_customization_header {
-    display: none !important;
-}
+/* .profile_customization_header{display: none !important;} */
 
 /* PROFILE: Hide item count on showcase */
-.item_count_stat {
-    display: none !important;
-}
+/* .item_count_stat{display: none !important;} */
 
 /* PROFILE: Hide disgusting art showcases from weebs and fucking nerds */
-.profile_customization.myart {
-    display: none !important;
-}
+.profile_customization.myart{display: none !important;}
 
-/* PROFILE: Remove item showcase border */
-.item_showcase_item {
-    border: 0 !important;
-}
-
-/* LIBRARY: Hide the What's New sectio. */
-.libraryhome_UpdatesContainer_17uEB {
-    display: none !important;
-}
+/* LIBRARY: Hide the What's New section. */
+.libraryhome_UpdatesContainer_17uEB{display: none !important;}
 
 /* LIBRARY: Hide the info section alert of a non-steam game. */
-.appdetailssectionnonsteam_Body_1TGl5 {
-    display: none !important;
-}
+.appdetailssectionnonsteam_Body_1TGl5{display: none !important;}
 
 /* LIBRARY: Hide the workshop section on the game page. */
-.appdetailsworkshopsection_WorkshopSection_2PfKa {
-    display: none !important;
-}
+.appdetailsworkshopsection_WorkshopSection_2PfKa{display: none !important;}
 
 /* LIBRARY: Hide the 'New in Library' banner on newly added games. */
-.appportrait_AppPortraitBannerContainer_2jj5T {
-    display: none !important;
-}
+.appportrait_AppPortraitBannerContainer_2jj5T{display: none !important;}
 
-/* FRIENDS: Hide the asterisk next to a nicknamed friend. */
-.personanameandstatus_playerNicknameBracket_3XEmW,
-.player_nickname_hint {
-    display: none !important;
-}
-
-/* FRIENDS: Hide the status color avatar overlay (No more blue bar on the right of every user image.). */
-.avatarStatus {
-    display: none !important;
-}
+/* FRIENDS: Hide the asterisk next to a nicknamed friend. CURRENTLY NOT WORKING */
+/* .personanameandstatus_playerNicknameBracket_3XEmW,.player_nickname_hint{display: none !important;} */
 
 /* BADGES: Remove 'How to get card drops' link. */
-span.how_to_get_card_drops_ctn {
-    display: none;
-}
+span.how_to_get_card_drops_ctn{display: none;}
+
+/* BADGES: Hide border around empty badge. */
+/* .badge_empty{border: 1px solid transparent !important;} */
 
 /* BADGES: Remove header line on badge row. */
-.badge_title_rule {
+/* .badge_title_rule{display: none !important;} */
+
+/* BADGES: Hide play button on every row. */
+.badge_title_playgame{display: none !important;}
+
+/* BADGES: Hide oegly boogly ass card border. */
+/* .badge_progress_card.unowned {border: dashed 1px transparent !important;background-color: transparent !important;} */
+
+/* BADGES: Hide level 0 badges when you have no cards from that collection. CURRENTLY NOT WORKING (it does work in browser) */
+/* .badge_row:not(:has(.badge_progress_card.owned)) {
     display: none !important;
-}
-
-/* BADGES: Hide play button */
-.badge_title_playgame {
+} */
+/* .badge_row:not(.badge_progress_card.owned) {
     display: none !important;
-}
+} */
+/* .badge_row:has(.badge_info) {
+    display: block !important;
+} */
 
-/* INVENTORY: Hide specific games from tab menu (appid). */
-#inventory_link_238460, #inventory_link_437220, #inventory_link_381210, #inventory_link_578080, #inventory_link_218620, 
-#inventory_link_207140, #inventory_link_570 {
-    display: none !important;
-}
-.games_list_tab_separator {
-    display: none !important;
-}
-.games_list_tab, a.games_list_tab {
-    display: inline-block !important;
-    float: none !important;
-}
+/* INVENTORY: Hide specific games from tab menu (appid). (remove or add to your personal preference) */
+#inventory_link_238460, /* BattleBlock Theater */
+#inventory_link_437220, /* The Culling */
+#inventory_link_381210, /* Dead By Daylight */
+#inventory_link_578080, /* PUBG: Battlegrounds */
+#inventory_link_218620, /* Payday 2 */
+#inventory_link_207140, /* Speedrunners */
+#inventory_link_570, /* Dota 2 */
+#inventory_link_99900 /* Spiral Knights */ {display: none !important;}
+.games_list_tab_separator{display: none !important;}.games_list_tab,a.games_list_tab{display: inline-block !important;margin: 0 1px !important;float: left !important;}
 
-/* INVENTORY: Hide warning icon on items (i.e. a nametagged item). */
-.slot_app_fraudwarning {
-    display: none !important;
-}
-
-
-
-
-
-
-
-/* Styling preferences ------------------------ */
-
-/* INVENTORY: Game tab remove shadow on select. */
-.games_list_tab.active {
-    -webkit-box-shadow: 0 0 black !important;
-    -moz-box-shadow: 0 0 black !important;
-    box-shadow: 0 0 black !important;
-}
+/* INVENTORY: Hide warning icon on items thumbnail (i.e. a nametagged item). */
+.slot_app_fraudwarning {display: none !important;}
