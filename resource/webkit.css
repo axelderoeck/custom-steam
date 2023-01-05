@@ -59,16 +59,5 @@ span.how_to_get_card_drops_ctn{display: none;}
     display: block !important;
 } */
 
-/* INVENTORY: Hide specific games from tab menu (appid). (remove or add to your personal preference) */
-#inventory_link_238460, /* BattleBlock Theater */
-#inventory_link_437220, /* The Culling */
-#inventory_link_381210, /* Dead By Daylight */
-#inventory_link_578080, /* PUBG: Battlegrounds */
-#inventory_link_218620, /* Payday 2 */
-#inventory_link_207140, /* Speedrunners */
-#inventory_link_570, /* Dota 2 */
-#inventory_link_99900 /* Spiral Knights */ {display: none !important;}
-.games_list_tab_separator{display: none !important;}.games_list_tab,a.games_list_tab{display: inline-block !important;margin: 0 1px !important;float: left !important;}
-
 /* INVENTORY: Hide warning icon on items thumbnail (i.e. a nametagged item). */
 .slot_app_fraudwarning {display: none !important;}
