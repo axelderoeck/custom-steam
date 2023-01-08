@@ -39,6 +39,9 @@
 /* LIBRARY: Hide the 'Please review the game' nagging bar (Doesnt have an effect if the above rule is applied). */
 .appdetailsspotlight_ReviewContainer_3LE-6{display: none !important;}
 
+/* LIBRARY: Hide the post activity text submit bar. */
+.posttextentry_PostTextEntry_3x31A.appdetailsactivitysection_AddToFeed_2bqRp.appdetailsactivitysection_PostTextEntry_YFAtL,.appdetailsactivitysection_ViewLastNews_1EC1x{display: none !important;}
+
 /* LIBRARY: Hide the info section alert of a non-steam game. */
 .appdetailssectionnonsteam_Body_1TGl5{display: none !important;}
 
