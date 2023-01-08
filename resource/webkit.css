@@ -47,6 +47,13 @@
 
 /* LIBRARY: Hide the 'New in Library' banner on newly added games. */
 .appportrait_AppPortraitBannerContainer_2jj5T{display: none !important;}
+/* 
+.appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ.appdetailsgameinfocontainer_AppDetailsExpanded_3s6_6{
+    height: 179px !important;}
+
+.appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ.appdetailsgameinfocontainer_AppDetailsCollapsed_3yfoe {
+    height: 197px !important;
+} */
 
 /* FRIENDS: Hide the asterisk next to a nicknamed friend. CURRENTLY NOT WORKING */
 .personanameandstatus_playerNicknameBracket_3XEmW,.player_nickname_hint{display: none !important;}
@@ -61,4 +68,10 @@ span.how_to_get_card_drops_ctn{display: none;}
 .badge_row:not(:has(.badge_progress_card.owned)){display: none !important;}.badge_row:has(.badge_info){display: block !important;}
 
 /* INVENTORY: Hide warning icon on items thumbnail (i.e. a nametagged item). */
-.slot_app_fraudwarning {display: none !important;}
+.slot_app_fraudwarning{display: none !important;}
+
+/* STORE: Hide the 'recently updated' and the 'currently live streaming' sections of the store. */
+.home_ctn.recently_updated_block,.home_ctn.live_streams_ctn.no_paging{display: none !important;}
+
+/* STORE: Completely hide the livestream on the product page. */
+.broadcast_embed_top_ctn_trgt{display: none !important;}
