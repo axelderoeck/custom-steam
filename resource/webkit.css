@@ -27,7 +27,7 @@
 /* PROFILE: Hide item count on item showcase */
 /* .item_count_stat{display: none !important;} */
 
-/* PROFILE: Hide disgusting art showcases from weebs and fucking nerds */
+/* PROFILE: Hide art showcases to avoid those 'transparent' profiles */
 .profile_customization.myart{display: none !important;}
 
 /* LIBRARY: Hide the What's New section. */
@@ -47,13 +47,6 @@
 
 /* LIBRARY: Hide the 'New in Library' banner on newly added games. */
 .appportrait_AppPortraitBannerContainer_2jj5T{display: none !important;}
-/* 
-.appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ.appdetailsgameinfocontainer_AppDetailsExpanded_3s6_6{
-    height: 179px !important;}
-
-.appdetailsgameinfocontainer_AppGameInfoContainer_25oBZ.appdetailsgameinfocontainer_AppDetailsCollapsed_3yfoe {
-    height: 197px !important;
-} */
 
 /* FRIENDS: Hide the asterisk next to a nicknamed friend. CURRENTLY NOT WORKING */
 .personanameandstatus_playerNicknameBracket_3XEmW,.player_nickname_hint{display: none !important;}
