@@ -16,7 +16,7 @@
 <p align="center">
     <a href="https://github.com/axelderoeck/custom-steam/releases/latest">Download latest release</a>
     ·
-    <a href="#What-does-the-skin-hide?">View list of hidden items</a>
+    <a href="#what-does-the-skin-hide">View list of hidden items</a>
     ·
     <a href="https://github.com/axelderoeck/custom-steam/issues/new/choose">Request to hide something</a>
     ·
