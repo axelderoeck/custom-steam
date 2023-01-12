@@ -1,5 +1,5 @@
 <p align="center">
- <img width="300px" src="./images/repo-logo.png" align="center" alt="Antisocial" />
+ <img width="300px" src="./images/repo-logo.png" align="center" alt="repo logo" />
  <h2 align="center"></h2>
  <p align="center">A basic skin that hides certain aspects of the steam client.</p>
 </p>
