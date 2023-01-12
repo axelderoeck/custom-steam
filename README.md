@@ -1,5 +1,14 @@
 <img src="https://www.jaxon.gg/wp-content/uploads/2022/08/Steam-Featured.jpg" alt="Header image" width="100%">
 
+<p align="center">
+    <a href="https://github.com/aksol-dev/custom-steam/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/axelderoeck/custom-steam" />
+    </a>
+    <a href="https://github.com/aksol-dev/custom-steam/releases/latest">
+      <img alt="Downloads" src="https://img.shields.io/github/downloads/axelderoeck/custom-steam/total" />
+    </a>
+</p>
+
 # Custom Steam skin
 <a href="https://github.com/aksol-dev/custom-steam/releases/latest">Download latest release</a>
 
