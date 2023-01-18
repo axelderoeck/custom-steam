@@ -21,6 +21,21 @@
 /* PROFILE: Hide all recent games activity except the most recent game. (Doesnt have an effect if the above rule is applied) */
 .recent_game:not(:first-child){display: none !important;}
 
+/* PROFILE: Hide all profile showcases */
+/* .profile_customization_area {display: none !important;} */
+
+/* PROFILE: Hide all profile links on the side (videos, screenshots) */
+/* .responsive_count_link_area {display: none !important;} */
+
+/* PROFILE: Hide profile awards link */
+/* .profile_awards {display: none !important;} */
+
+/* PROFILE: Hide profile badges link */
+/* .profile_badges {display: none !important;} */
+
+/* PROFILE: Hide groups info */
+/* .profile_group_links.profile_count_link_preview_ctn.responsive_groupfriends_element {display: none !important;} */
+
 /* PROFILE: Hide the title of every showcase. */
 /* .profile_customization_header{display: none !important;} */
 
