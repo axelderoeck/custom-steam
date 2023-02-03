@@ -39,7 +39,7 @@
 If a feature is not default but you would like to use it, you have to uncomment the corresponding line in ```resource/webkit.css```.
 If a feature is striked through that means it is currently not working.
 
-- Hides the 'Whats New' section in the library.
+- ~~Hides the 'Whats New' section in the library.~~
 - Hides the 'Add Showcase' button on your profile.
 - Hides all the recent games on every profile.
 - **(Not default)** Shows just 1 recent game instead of 3 on every profile.
@@ -47,10 +47,10 @@ If a feature is striked through that means it is currently not working.
 - Hides every profile's ban status.
 - **(Not default)** Hides the title of every showcase.
 - **(Not default)** Hides the item count on every item showcase.
-- Hides the spotlight section (The nagging bar asking for a review on the game page).
-- Hides the post activity text submit bar on the game page.
-- Hides the info section alert of a non-steam game.
-- Hides the 'New in Library' banner on newly added games.
+- ~~Hides the spotlight section (The nagging bar asking for a review on the game page).~~
+- ~~Hides the post activity text submit bar on the game page.~~
+- ~~Hides the info section alert of a non-steam game.~~
+- ~~Hides the 'New in Library' banner on newly added games.~~
 - ~~Hides the asterisk next to a nicknamed friend.~~
 - Hides the 'How to get card drops' link on every badge row.
 - Hides the play button on every badge row.
